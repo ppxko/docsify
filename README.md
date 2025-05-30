@@ -76,6 +76,59 @@ Thank you for supporting this project! ❤️ [[Become a sponsor](https://openco
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 
+
+
+
+
+###解释
+docsify 是一个“魔法般”的文档网站生成器，不像 GitBook 那样生成静态 HTML 文件，而是在浏览器中动态读取并渲染 Markdown 文件。要使用它，只需创建 index.html 并部署到 GitHub Pages 即可
+
+项目功能
+
+不生成静态 HTML 文件
+
+简单轻量
+
+内置智能全文搜索插件
+
+提供多种主题
+
+实用的插件 API
+
+支持 Emoji
+
+项目依赖
+
+运行环境需要 Node.js ≥ 20.11.0
+
+核心依赖包含：
+
+dexie
+
+medium-zoom
+
+opencollective-postinstall
+
+prismjs
+
+tinydate
+
+使用方法
+
+建议全局安装 docsify-cli：
+
+npm i docsify-cli -g
+在指定目录初始化文档：
+
+docsify init ./docs
+编辑 ./docs/README.md 等 Markdown 文件。
+
+运行本地服务器并在浏览器中预览：
+
+docsify serve docs
+默认地址为 http://localhost:3000
+
+以上即为该项目的简介、主要功能、依赖项及基本使用方式。
 <a href="https://github.com/docsifyjs/docsify/graphs/contributors"><img src="https://opencollective.com/docsify/contributors.svg?width=890" /></a>
 
 ## License
